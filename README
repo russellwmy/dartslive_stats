@@ -17,3 +17,14 @@ Initialize the project
 Run APP
 -------------------------------------------------------------------------------
 - cmd: python3 stats.py
+
+
+Using as API
+-------------------------------------------------------------------------------
+dl_api = Dartslive()
+dl_api.login(<uid>, <pin>)
+
+dl_api.get_stats() -return personal stats
+
+dl_api.get_group_stats(<gid>) -return group stats
+
